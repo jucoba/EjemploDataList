@@ -8,6 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
+using Datos;
 
 namespace PruebasConceptoYony
 {
@@ -29,6 +30,19 @@ namespace PruebasConceptoYony
             if (e.Row.RowType == DataControlRowType.Footer)
             {
                 e.Row.Cells[3].Text = "Total: " + valorTotal;
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void MiObjDs_DataBinding(object sender, EventArgs e)
+        {
+            if (!Page.IsPostBack)
+            {
+                Console.WriteLine("s");
             }
         }
 

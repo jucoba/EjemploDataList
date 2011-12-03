@@ -8,6 +8,8 @@ using System.Data;
 
 namespace Datos
 {
+    
+
     public class PagosObject
     {
         private SqlDataAdapter adapter = null;

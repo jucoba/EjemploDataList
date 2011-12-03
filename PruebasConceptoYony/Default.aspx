@@ -12,7 +12,7 @@
     <div>
         &nbsp;<br />
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>&nbsp;<asp:Button ID="Button1"
-            runat="server" Text="Button" />
+            runat="server" Text="Button" OnClick="Button1_Click" />
         <asp:DataList ID="DataList1" runat="server" DataSourceID="ObjectDataSource1" BackColor="Bisque" BorderColor="Tan" BorderWidth="1px" CellPadding="2" ForeColor="Black" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False">
             <ItemTemplate>
                 IdDoc:
@@ -72,11 +72,11 @@
                 <asp:ControlParameter ControlID="TextBox1" Name="id" PropertyName="Text" />
             </SelectParameters>
         </asp:ObjectDataSource>
-        <br />
+        &nbsp;<br />
         <br />
         &nbsp;
         <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="IdPago"
-            DataSourceID="MiCustomDS">
+            DataSourceID="MiObjDs">
             <Columns>
                 <asp:BoundField DataField="IdPago" HeaderText="IdPago" ReadOnly="True" SortExpression="IdPago" />
                 <asp:BoundField DataField="IdDoc" HeaderText="IdDoc" SortExpression="IdDoc" />
@@ -84,8 +84,8 @@
                 <asp:BoundField DataField="Valor" HeaderText="Valor" SortExpression="Valor" />
             </Columns>
         </asp:GridView>
-        <asp:ObjectDataSource ID="MiCustomDS" runat="server" SelectMethod="getDocumentos"
-            TypeName="Datos.PagosObject">
+        <asp:ObjectDataSource ID="MiObjDs" runat="server" OnDataBinding="MiObjDs_DataBinding"
+            SelectMethod="getDocumentos" TypeName="Datos.PagosObject">
             <SelectParameters>
                 <asp:ControlParameter ControlID="TextBox1" DefaultValue="-1" Name="id" PropertyName="Text"
                     Type="String" />
