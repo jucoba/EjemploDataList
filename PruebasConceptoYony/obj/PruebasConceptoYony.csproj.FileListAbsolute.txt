@@ -1,0 +1,9 @@
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\bin\PruebasConceptoYony.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\bin\PruebasConceptoYony.pdb
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\bin\Microsoft.SqlServerCe.Client.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\bin\EN\Microsoft.SqlServerCe.Client.resources.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\obj\Debug\ResolveAssemblyReference.cache
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\obj\Debug\PruebasConceptoYony.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\obj\Debug\PruebasConceptoYony.pdb
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\bin\Datos.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\PruebasConceptoYony\bin\Datos.pdb

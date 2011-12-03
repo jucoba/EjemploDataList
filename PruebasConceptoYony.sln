@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasConceptoYony", "PruebasConceptoYony\PruebasConceptoYony.csproj", "{7B3C8775-54C6-4074-A5AE-2D260C534794}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{48945796-95B9-495B-A4D7-51213034A3D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B3C8775-54C6-4074-A5AE-2D260C534794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3C8775-54C6-4074-A5AE-2D260C534794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3C8775-54C6-4074-A5AE-2D260C534794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3C8775-54C6-4074-A5AE-2D260C534794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48945796-95B9-495B-A4D7-51213034A3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48945796-95B9-495B-A4D7-51213034A3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48945796-95B9-495B-A4D7-51213034A3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48945796-95B9-495B-A4D7-51213034A3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

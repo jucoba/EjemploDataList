@@ -1,0 +1,6 @@
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\Datos\bin\Debug\Datos.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\Datos\bin\Debug\Datos.pdb
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\Datos\obj\Debug\ResolveAssemblyReference.cache
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\Datos\obj\Debug\Datos.dll
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\Datos\obj\Debug\Datos.pdb
+F:\Desarrollo\AgilSoftware\PruebasConceptoYony\Datos\bin\Debug\Datos.dll.config

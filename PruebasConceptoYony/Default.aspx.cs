@@ -1,0 +1,39 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+namespace PruebasConceptoYony
+{
+    public partial class _Default : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        double valorTotal = 0;
+        protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                Pagos.PagosRow pr = ((System.Data.DataRowView)e.Row.DataItem).Row as Pagos.PagosRow;
+                valorTotal += pr.Valor;
+            }
+            if (e.Row.RowType == DataControlRowType.Footer)
+            {
+                e.Row.Cells[3].Text = "Total: " + valorTotal;
+            }
+        }
+
+        
+
+        
+    }
+}
